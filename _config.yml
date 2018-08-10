@@ -1,1 +1,93 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: lahlah's Blog
+SEOTitle: lahlah's Blog
+header-img: img/home-bg.jpg
+email: 941901934@qq.com
+description: ""
+keyword: ""
+url: "https://lahlah.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+timezone: China
+
+inserver: true
+
+# MathJax
+mathjax: true
+
+# SNS settings
+RSS: true
+#weibo_username:     YanWQ-monad
+#zhihu_username:     YanWQ-monad
+github_username:    lahlah.github.io
+#twitter_username:   YanWQ-monad
+#facebook_username:  YanWQ-monad
+#google_plus_id: 112757454778156334087
+qq_id: 941901934
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+plugins: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: rouge
+  math_engine: nil
+
+# Analytics
+#ba_track_id:  a105f7a51093c08c1aaa8bec96428621
+#ga_track_id:  UA-106147042-1
+#gtm_track_id: GTM-5BS4ZB2
+
+# Disqus
+#disqus_username: monadblog
+#livere_uid: MTAyMC8zNjYzOC8xMzE3Mw==
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一入OI深似海，从此智商是路人"
+sidebar-avatar: /img/Avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: false                     # whether or not using Feature-Tags
+featured-condition-size: 2              # A tag will be featured if the size of it is more than this condition value
+
+# Friends
+friends: [
+  {
+    title: "Monad",
+	href: "https://blog.monad.ga"
+  },
+  {
+    title: "Ghastlcon",
+    href : "https://ghastlcon.cf"
+  },
+  {
+    title: "Ufowoqqqo",
+    href : "https://Ufowoqqqo.github.io"
+  },
+  {
+    title: "wyy",
+    href : "http://www.cnblogs.com/littlewyy",
+  },
+  {
+    title: "zqy",
+    href : "http://www.cnblogs.com/yiyiyizqy",
+  },
+  {
+    title: "aspe",
+    href : "http://yhf4aspe.blog.163.com"
+  },
+  {
+    title: "JU",
+    href : "https://zhengyucheng.github.io"
+  }
+]
